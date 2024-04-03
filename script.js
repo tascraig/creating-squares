@@ -1,0 +1,1 @@
+const newBox = document.getElementById
