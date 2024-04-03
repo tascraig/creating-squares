@@ -1,8 +1,9 @@
 # Creating Squares
 
+https://tascraig.github.io/creating-squares/
+
+
 ![Creating Squares](/creatingSquare.gif "Creating Squares")
-
-
 
 This project demonstrates how to dynamically create nested squares with randomly generated colors upon a button click. It's a good way to understand event handling, DOM manipulation, and CSS styling in web development. 
 
@@ -39,9 +40,3 @@ The logic behind this project involves:
   
 - **JavaScript** for handling button clicks, generating squares with approriate styling, applying random colors, and checking for the remaining space within the parent square.
 
-
-## Submission
-1. Fork and clone 
-2. Create a Github pages link 
-3. Place Github pages link in README.md
-4. Submit link to Github repository
