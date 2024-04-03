@@ -33,4 +33,4 @@ The logic behind this project involves:
 
 - **CSS** for styling the squares and positioning the button.
   
-- **JavaScript** for handling button clicks, generating squares, applying random colors, and checking for the remaining space within the parent square.
+- **JavaScript** for handling button clicks, generating squares with approriate styling, applying random colors, and checking for the remaining space within the parent square.
