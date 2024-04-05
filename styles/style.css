@@ -5,28 +5,18 @@
 }
 
 body, html {
-  width: 100vh;
-  height: 100vh;
-  display: grid;
-  padding: 25px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main {
   width: 90vw;
   height: 90vh;
   border: 2px solid black;
-  justify-content: center;
-}
-.main__box {
-  border: 25px solid purple;
-  width: 100%;
-  height: 100%;
-}
-.main__box1 {
-  position: flex;
-  border: 25px solid pink;
-  width: 95%;
-  height: 95%;
+  position: relative;
 }
 .main__btn {
   background: rgb(51, 53, 87);
@@ -36,10 +26,11 @@ body, html {
   color: white;
   border-radius: 20px;
   cursor: pointer;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
 }
 
 /*# sourceMappingURL=style.css.map */
