@@ -10,7 +10,7 @@ button.addEventListener('click', () => {
     div.style.width = '100%';  
     div.style.height = '100%'; 
 
-    // If it's not the first div, append the new div as a child of the previous one
+    // If it's not the first div, then append the new div as a child of the previous one
     if (counter > 0) {
         const prevDiv = document.querySelector(`.main__div${counter - 1}`);
         prevDiv.appendChild(div);
@@ -21,7 +21,7 @@ button.addEventListener('click', () => {
     }
     counter++;
     
-});
+}); 
 
 //random color picker for border
 function randomRGB() {
